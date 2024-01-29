@@ -1,6 +1,6 @@
-class PaymentMethodsPageElements{
+class PaymentMethodsPageElements {
 
-    get creditOrDebitCard(){
+    get creditOrDebitCard() {
         return $('//android.view.View[contains(@content-desc,"Tarjeta cr")]');
     }
 
@@ -8,8 +8,6 @@ class PaymentMethodsPageElements{
         const elem = this.creditOrDebitCard
         await elem.waitForDisplayed({ timeout: timeout })
     }
-
-
 }
 
 module.exports = new PaymentMethodsPageElements();

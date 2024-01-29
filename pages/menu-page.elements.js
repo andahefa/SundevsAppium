@@ -1,8 +1,8 @@
-class MenuPageElements{
-    get profile(){
+class MenuPageElements {
+    get profile() {
         return $('~Perfil');
     }
-    get btnRegister(){
+    get btnRegister() {
         return $('//android.view.View[@content-desc="Registrarse"]');
     }
 }

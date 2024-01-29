@@ -1,13 +1,13 @@
-class LoginPageElements{
-    get email(){
+class LoginPageElements {
+    get email() {
         return $("//*[contains(@hint,'Correo electrónico *')]");
     }
 
-    get password(){
+    get password() {
         return $("//*[contains(@hint,'Contrase')]");
     }
 
-    get login(){
+    get login() {
         return $("//android.widget.Button[contains(@content-desc,'INICIAR SESI')]");
     }
 

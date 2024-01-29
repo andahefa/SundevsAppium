@@ -1,5 +1,5 @@
-class HomePageElements{
-    get notLocalitation(){
+class HomePageElements {
+    get notLocalitation() {
         return $('//android.widget.Button[@content-desc="CONTINUAR SIN LOCALIZACIÓN"]');
     }
 
@@ -17,19 +17,19 @@ class HomePageElements{
         );
     }
 
-    get lstCity(){
+    get lstCity() {
         return $('~Ciudad *');
     }
 
-    get lblBogotaCity(){
+    get lblBogotaCity() {
         return $('~Bogota');
     }
 
-    get btnContinue(){
+    get btnContinue() {
         return $('~CONTINUAR');
     }
 
-    get btnMenu(){
+    get btnMenu() {
         return $('//android.view.View[contains(@content-desc,"5 de 5")]');
     }
 

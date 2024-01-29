@@ -1,5 +1,5 @@
-class HomePageAfterRegisterElements{
-    get userRegisterSuccesful(){
+class HomePageAfterRegisterElements {
+    get userRegisterSuccesful() {
         return $('//android.view.View[@content-desc="AH"]');
     }
     async waitForUserRegisterSuccess(timeout = 30000) {
@@ -7,7 +7,7 @@ class HomePageAfterRegisterElements{
         await elem.waitForDisplayed({ timeout: timeout })
     }
 
-    get movie(){
+    get movie() {
         return $('//android.widget.ScrollView/android.view.View[9]/android.view.View/android.view.View[1]');
     }
 

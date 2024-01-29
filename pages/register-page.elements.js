@@ -1,57 +1,57 @@
-class RegisterPageElements{
-    get names(){
+class RegisterPageElements {
+    get names() {
         return $('//android.widget.ScrollView/android.widget.EditText[1]');
     }
-    get surnames(){
+    get surnames() {
         return $('//android.widget.ScrollView/android.widget.EditText[2]');
     }
-    get email(){
+    get email() {
         return $('//android.widget.ScrollView/android.widget.EditText[3]');
     }
-    get confirmEmail(){
+    get confirmEmail() {
         return $('//android.widget.ScrollView/android.widget.EditText[4]');
     }
-    get telephone(){
+    get telephone() {
         return $('//android.widget.ScrollView/android.widget.EditText[5]');
     }
-    get address(){
+    get address() {
         return $('//android.widget.ScrollView/android.widget.EditText[6]');
     }
-    get lstGender(){
+    get lstGender() {
         return $('//android.widget.Button[@content-desc="Género (opcional)"]');
     }
-    get genderMale(){
+    get genderMale() {
         return $('//android.view.View[@content-desc="Masculino"]');
     }
-    get datePickerBirthdate(){
+    get datePickerBirthdate() {
         //return $("(//*[contains(@class,'android.view.View')])[5]");
         return $("//*[contains(@hint,'Fecha de nacimiento')]");
     }
-    get btnEditBirthdate(){
+    get btnEditBirthdate() {
         return $('//android.view.View[contains(@content-desc,"SELECCIONA UNA FECHA")]/android.widget.Button[1]');
     }
-    get inputBirthdate(){
+    get inputBirthdate() {
         return $("(//*[contains(@class,'android.widget.EditText')])");
     }
-    get btnAccept(){
+    get btnAccept() {
         return $('~ACEPTAR');
     }
-    get inputDocumentNumber(){
+    get inputDocumentNumber() {
         return $("//*[contains(@hint,'de documento')]");
     }
-    get lstPreferredTheater(){
+    get lstPreferredTheater() {
         return $('~Teatro de preferencia *');
     }
-    get lblPreferredTheater(){
+    get lblPreferredTheater() {
         return $('~Lab v5 Floresta');
     }
-    get inputPassword(){
+    get inputPassword() {
         return $("//*[contains(@hint,'Contrase')]");
     }
-    get chkAcceptTerms(){
+    get chkAcceptTerms() {
         return $('//android.widget.ScrollView/android.view.View[2]');
     }
-    get btnContinue(){
+    get btnContinue() {
         return $('~CONTINUAR');
     }
 
