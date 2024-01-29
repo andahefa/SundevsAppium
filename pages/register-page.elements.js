@@ -24,7 +24,6 @@ class RegisterPageElements {
         return $('//android.view.View[@content-desc="Masculino"]');
     }
     get datePickerBirthdate() {
-        //return $("(//*[contains(@class,'android.view.View')])[5]");
         return $("//*[contains(@hint,'Fecha de nacimiento')]");
     }
     get btnEditBirthdate() {
@@ -54,8 +53,6 @@ class RegisterPageElements {
     get btnContinue() {
         return $('~CONTINUAR');
     }
-
-
 }
 
 module.exports = new RegisterPageElements();
