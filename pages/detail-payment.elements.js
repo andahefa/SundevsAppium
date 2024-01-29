@@ -1,6 +1,6 @@
-class DetailPaymentPageElements{
+class DetailPaymentPageElements {
 
-    get qrPayment(){
+    get qrPayment() {
         return $('//android.view.View[@content-desc="qr code"]');
     }
 
